@@ -1,0 +1,213 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Developer CV
+% LaTeX Class
+% Version 2.0 (12/10/23)
+%
+% This class originates from:
+% http://www.LaTeXTemplates.com
+%
+% Authors:
+% Omar Roldan
+% Based on a template by  Jan Vorisek (jan@vorisek.me)
+% Based on a template by Jan Küster (info@jankuester.com)
+% Modified for LaTeX Templates by Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[9pt]{developercv} % Default font size, values from 8-12pt are recommended
+\usepackage{multicol}
+\setlength{\columnsep}{0mm}
+%----------------------------------------------------------------------------------------
+\usepackage{lipsum}  
+
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.5\textwidth} 
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	{ \fontsize{16}{20} \textcolor{black}{\textbf{\MakeUppercase{Julio Eduardo Maistrovicz Correa}}}} % First name
+	
+	\vspace{6pt}
+	
+	{\Large Senior Back-end Developer } % Career or current job title
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.2\textwidth} % 20% of the page width for the first row of icons
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+    \icon{Phone}{11}{+351 910-242-787}\\
+    \icon{MapMarker}{11}{Lisbon, Portugal}\\
+	
+\end{minipage}
+\begin{minipage}[t]{0.27\textwidth} % 27% of the page width for the second row of icons
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	\icon{Envelope}{11}{\href{mailto:julio.maistrovicz@hotmail.com}{julio.maistrovicz@hotmail.com}}\\	
+    \icon{LinkedinSquare}{11}{\href{https://www.linkedin.com}{in/julio-maistrovicz/}}\\    
+    
+\end{minipage}
+%----------------------------------------------------------------------------------------
+%	INTRODUCTION, SKILLS AND TECHNOLOGIES
+%----------------------------------------------------------------------------------------
+\begin{minipage}[t]{0.46\textwidth}
+    \cvsect{Summary}
+	\vspace{-6pt}
+ 
+    %Dummy text
+    I am an experienced Java Senior Backend Developer proficient in Java EE/SE, Spring, and Hibernate. I specialize in designing and optimizing backend systems for web applications, focusing on clean RESTful APIs and secure database management. I am skilled in server deployment, prioritize code quality, and possess strong problem-solving abilities. I actively contribute to team collaboration, mentor junior developers, and stay updated with the latest Java advancements, bringing a passion for software development and commitment to excellence to any Senior Backend Developer role.
+\end{minipage}
+\hfill % Whitespace between
+\begin{minipage}[t]{0.465\textwidth}
+    \cvsect{Skills}
+    \vspace{-6pt}
+    
+    \begin{minipage}[t]{0.2\textwidth}
+        \textbf{Languages:}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{0.73\textwidth}
+      Java 8, 11, SQL, JavaScript, JSP/JSF, Bootstrap.  
+    \end{minipage}
+    \vspace{4mm}
+    
+    \begin{minipage}[t]{0.2\textwidth}
+        \textbf{Technologies:}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{0.73\textwidth}
+      Spring Framework, Hibernate, Junit, Maven, Microservices Architecture, RESTful Web Services, OracleDB, MySQL, PostgreSQL, Git, Jenkins, Linux Debian, Agile, TomCat, JBoss, IBM WebSphere, Docker Openshift and Kafka.
+    \end{minipage}
+    
+\end{minipage}
+%----------------------------------------------------------------------------------------
+%	LANGUAGES
+%----------------------------------------------------------------------------------------
+\vspace{0.5 pt}
+	\cvsect{Languages}
+    \vspace{-6pt}
+    \begin{center} \textbf{Portuguese} - Native, \textbf{English} - C2, \textbf{Libras (Brasilian Sign Languague)} - B1, \textbf{French} - A1, \textbf{Japonese} - A1. \end{center}
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
+\vspace{0.5 pt}
+\cvsect{Experience}
+\begin{entrylist}
+	\entry
+        {02/2023}
+		{Senior Back-end Developer \\\footnotesize{Lisbon - Portugal}}
+		{Aubay}
+		{\vspace{-10pt}
+        \begin{itemize}[noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt, leftmargin=-1pt]
+            \setlength\itemsep{1em}
+            \item 6 Months: I was developing Java Spring Boot micro-services applications for an aircraft control system. These micro-services were designed to seamlessly communicate with the front-end, which has been crafted in C# and C++. Our system utilizes OracleDB as the primary database while incorporating H2 minimal databases for specific use cases. The communication between these components is facilitated through a combination of multi-casting and secure SFTP (SSH File Transfer Protocol), as also know gRPC.
+            \item 3 Months: Developing server-side components that enable real-time communication between the client and server using web-sockets, implementing thread-safe code to ensure the reliability and scalability of the application, developing efficient algorithms and data structures to handle large volumes of real-time data, troubleshooting and resolving issues related to web-sockets and threading, working collaboratively with front-end developers, product managers, and other stakeholders to ensure that the application meets the needs of users.
+        \end{itemize} 
+        \texttt{Java 11} \slashsep \texttt{Spring Framework} \slashsep \texttt{Oracle} \slashsep \texttt{Tomcat} \slashsep \texttt{C\#} \slashsep \texttt{C++} \slashsep \texttt{WPF} \slashsep \texttt{Agile} \slashsep \texttt{Jira} }
+	\entry
+		{3/2021 -- 3/2022}
+		{Tech lead and Senior developer \\\footnotesize{Curitiba - Brasil}}
+		{Bradesco}
+		{\vspace{-10pt}
+        \begin{itemize}[noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt, leftmargin=-1pt]
+            \item As Techlead, I was responsible for the Disney+ product, performing production maintenance, code upgrades, implementation of new features, and managing the Git flow. Later on, I was relocated to another team where I became the Java expert, performing the same functions. However, due to the team's maturity in KMM, I took on the role of an Agile transformer and simultaneously performed the roles of Techlead and Scrum Master. In this role, I had the opportunity to teach my colleague how to apply Agile principles, managing various activities in Jira, conducting ceremonies, and guiding developers on technical matters.
+        \end{itemize} 
+        \texttt{Java 11} \slashsep \texttt{Spring Framework} \slashsep \texttt{Oracle} \slashsep \texttt{JBoss} \slashsep \texttt{Openshift} \slashsep \texttt{Agile} \slashsep \texttt{Jira}}
+	\entry
+		{6/2020 -- 3/2021}
+		{Data engineer \\\footnotesize{Curitiba - Brasil}}
+		{Prime IT}
+		{\vspace{-10pt}
+        \begin{itemize}[noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt, leftmargin=-1pt]
+            \item I have worked on the development of a system for layout analysis in the ingestion of a datalake, as well as the creation and development of a series of Java-based systems for payment processing in the Disney+ project within Bradesco Bank. These systems include batch, RESTful, and web-based solutions.
+        \end{itemize} 
+        \texttt{Java 11} \slashsep \texttt{Java 8} \slashsep \texttt{Spring Framework} \slashsep \texttt{COBOL} \slashsep \texttt{JBoss} \slashsep \texttt{Openshift} \slashsep \texttt{Oracle} \slashsep \texttt{DB2} \slashsep \texttt{Agile} \slashsep \texttt{Jira}}
+        \entry
+		{6/2018 -- 6/2020}
+		{System Analyst \\\footnotesize{Curitiba - Brasil}}
+		{BRQ}
+		{\vspace{-10pt}
+        \begin{itemize}[noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt, leftmargin=-1pt]
+            \item As part of Bradesco's development center, a department that handles a variety of projects within the bank, I worked on projects ranging from legacy to newer systems. I worked with Java versions 1.5, 1.6, 1.7, and 1.8, utilizing the internal AWB framework, and configuring and working with Tomcat and Websphere servers.
+        \end{itemize} 
+        \texttt{Java 8, 7, 6, 5} \slashsep \texttt{COBOL} \slashsep \texttt{JSF internal framework} \slashsep \texttt{Tomcat} \slashsep \texttt{Websphere} \slashsep}
+        \entry
+		{11/2016 - 5/2018}
+		{Intern \\\footnotesize{Curitiba - Brasil}}
+		{Bradesco}
+		{\vspace{-10pt}
+        \begin{itemize}[noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt, leftmargin=-1pt]
+            \item I had experience in developing and enhancing projects within the field, using Cobol and Java as my main languages. I am skilled in working with a variety of technologies, including Hibernate, Maven, SVN, MySQL, and VBA.
+        \end{itemize} 
+        \texttt{Java 7} \slashsep \texttt{COBOL} \slashsep \texttt{MySQL} \slashsep \texttt{VBA} \slashsep \texttt{SVN}}
+        	\entry
+		{5/2016 - 10/2016}
+		{Intern \\\footnotesize{Curitiba - Brasil}}
+		{HSBC}
+		{\vspace{-10pt}
+        \begin{itemize}[noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt, leftmargin=-1pt]
+            \item Handling service desk calls related to end-user computing (EUC) support, as well as developing and improving projects for asset inventory (reconciliations, layout converters, and other matching processes) in Java during the transition between HSBC and Bradesco. Technologies used during the internship period included Java, Hibernate, Maven, SVN, MySQL, and VBA
+        \end{itemize} 
+        \texttt{Java 7} \slashsep \texttt{MySQL} \slashsep \texttt{VBA}}
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+\vspace{-10 pt}
+\cvsect{Education}
+\begin{entrylist}
+	\entry
+		{2023}
+		{Udemy}
+		{Course}
+		{Apache Kafka Series - Learn Apache Kafka for Beginners v3}
+    \entry
+		{2020}
+		{Datascience Academy}
+		{Course}
+		{Data Engineering with Hadoop and Spark}
+    \entry
+		{2014 - 2018}
+		{Universidade Federal do Paraná}
+		{College}
+		{System Analisys and Development}
+\end{entrylist}
+%----------------------------------------------------------------------------------------
+%	Extra activities
+%----------------------------------------------------------------------------------------
+\vspace{-10 pt}
+\cvsect{Extra activities}
+\begin{entrylist}
+	\entry
+        {01/2018 - 12/2021}
+		{Volunteering}
+		{Formação solidaria}
+		{\vspace{-10pt}
+        \begin{itemize}[noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt, leftmargin=-1pt]
+            \item Interviewing candidates in a series of socioeconomics topics for an institution named Formação solidaria that helps poor people to be qualified to the brasilian universities exams.
+        \end{itemize} }
+	\entry
+		{10/2017 - 12/2017}
+		{Volunteering}
+		{Palácio Avenida}
+		{\vspace{-10pt}
+        \begin{itemize}[noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt, leftmargin=-1pt]
+            \item I was volunteer as a Christmas angel taking care of an poor children in a show participating in the preparatory stages and rehearsal. 
+        \end{itemize} }
+\end{entrylist}
+%----------------------------------------------------------------------------------------
+
+\end{document}
