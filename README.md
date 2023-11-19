@@ -4,7 +4,7 @@ This repository contains the information of my resume
 
 ## About
 
-I am an experienced Java Senior Backend Developer proficient in Java EE/SE, Spring, and Hibernate. I specialize in designing and optimizing backend systems for web applications, focusing on clean RESTful APIs and secure database management. I am skilled in server deployment, prioritize code quality, and possess strong problem-solving abilities. I actively contribute to team collaboration, mentor junior developers, and stay updated with the latest Java advancements, bringing a passion for software development and commitment to excellence to any Senior Backend Developer role.
+I am an experienced Java Senior Backend Developer proficient in Java EE/SE, Spring, and Hibernate. I specialize in designing and optimizing backend, doing clean RESTful APIs and secure database management. I prioritize code quality, and possess strong problem-solving abilities. I actively contribute to team collaboration, mentor junior developers, and stay updated with the latest Java advancements, bringing a passion for software development and commitment to excellence to any Senior Backend Developer role.
 
 ## Download
 
