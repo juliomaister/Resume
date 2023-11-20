@@ -8,6 +8,6 @@ I am an experienced Java Senior Backend Developer proficient with the Spring fra
 
 ## Download
 
-Use this link to download the [Resume](https://github.com/juliomaister/Resume/blob/7e065ad56bd90b8675a154d64f6c1d961ac59a6f/Julio%20Resume.pdf) in PDF.
+Use this link to download the resume in the link above
 
 
