@@ -8,6 +8,6 @@ I am an experienced Java Senior Backend Developer proficient with the Spring fra
 
 ## Download
 
-Use this link to download the resume in the link above
+Use this link to download the resume in the above
 
 
